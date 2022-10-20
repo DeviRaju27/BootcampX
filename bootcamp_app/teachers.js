@@ -1,5 +1,5 @@
 const { Pool } = require('pg');
-const [, , cohort_month, limit] = process.argv;
+const [, , cohort_month] = process.argv;
 const pool = new Pool({
   user: 'vagrant',
   password: '123',
